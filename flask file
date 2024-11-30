@@ -1,0 +1,19 @@
+import random
+
+def generate_random_number():
+    # Generate a random number between 1 and 100
+    return random.randint(1, 100)
+
+def save_to_file(number, filename="random_number.txt"):
+    # Save the random number to a text file
+    with open(filename, "w") as file:
+        file.write(f"The generated random number is: {number}\n")
+    print(f"Random number {number} has been saved to {filename}")
+
+def main():
+    random_number = generate_random_number()
+    print(f"Generated random number: {random_number}")
+    save_to_file(random_number)
+
+if __name__ == "__main__":
+    main()
