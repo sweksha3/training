@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+    </header>
+    <main>
+        <p>This is a simple webpage created using HTML.</p>
+        <p>Here, we have a heading, some text, and a link to another webpage.</p>
+        <a href="https://www.example.com" target="_blank">Visit Example Website</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Simple Webpage</p>
+    </footer>
+</body>
+</html>
